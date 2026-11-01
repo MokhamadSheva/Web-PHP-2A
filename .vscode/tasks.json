@@ -1,0 +1,15 @@
+﻿{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Buka di Browser",
+            "type": "shell",
+            "command": "powershell -Command \"Start-Process ('http://localhost/Web-PHP-2A/' + ''.Replace('\\\\', '/'))\"",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
