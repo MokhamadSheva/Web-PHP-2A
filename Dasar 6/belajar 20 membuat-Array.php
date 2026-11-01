@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // membuat array kosong
 $siswa = array();
 $kelas = [];
@@ -10,7 +10,7 @@ $kelas = [10, 11, 12];
 // membuat array dengan mengisi indeks tertentu
 $siswa[0] = "Dian";
 $siswa[1] = "Andy";
-$siswa[2] = "Rudy";
+$siswa[2] = "Sheva";
  
 var_dump($siswa);
 echo "<br>";

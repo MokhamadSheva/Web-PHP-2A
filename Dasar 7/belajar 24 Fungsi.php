@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 //membuat function
 function salam(){
     echo "<h3>Assalamualaikum, </h3>";
-    echo "Perkenalkan, nama saya Rudy<br/>";
+    echo "Perkenalkan, nama saya Sheva<br/>";
 }
  
 // membuat fungsi
@@ -11,7 +11,7 @@ function hitungUmur($thn_lahir, $thn_sekarang){
     return $umur;
 }
  
-function kenalan($nama,$asal) {
+function kenalan($nama, $asal) {
     echo "<h3>Halo Nama saya $nama </h3>";
     echo "Saya dari $asal <br>";
     echo "Umur saya adalah ". hitungUmur(1994, 2020) ." tahun";
@@ -20,9 +20,9 @@ function kenalan($nama,$asal) {
 //memanggil function salam
 salam();
  
-$siswa="Ani";
-$dari="kediri";
+$siswa = "Ani";
+$dari = "kediri";
  
 //memanggil function kenalan
-kenalan($siswa,$dari);
+kenalan($siswa, $dari);
 ?>
